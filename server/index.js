@@ -3,11 +3,11 @@ const app = express();
 const db = require("./models");
 const cors = require("cors");
 
-
-
+// * : app.use
 app.use(express.json());
 app.use(cors());
 
+// * : Routers
 const postRouter = require("./routes/PostRouter");
 app.use("/post-router",postRouter);
 const commentRouter = require("./routes/CommentRouter");
