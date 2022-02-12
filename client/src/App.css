@@ -1,0 +1,9 @@
+.formik_textarea {
+  width: 80%;
+}
+.writeBtn {
+  position: fixed;
+  bottom:30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
